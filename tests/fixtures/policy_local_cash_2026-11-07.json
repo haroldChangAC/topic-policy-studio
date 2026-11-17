@@ -1,0 +1,15 @@
+{
+  "case_id": "X03_cash_explicit_exploratory",
+  "prepared_after_main_results_before_this_model_call": true,
+  "reason": "初始补贴表述未明确现金形式，因此另加显式现金条款；不改变主样例预期。",
+  "synthetic": true,
+  "text": "本政策规定：以现金方式向低收入家庭每月发放100元基本生活补贴。申请人须提交收入证明。",
+  "pre_model_assessment": "支持：明确现金、低收入家庭、每月、基本生活",
+  "pre_model_evidence": "以现金方式向低收入家庭每月发放100元基本生活补贴",
+  "pre_model_positions": [
+    [
+      6,
+      31
+    ]
+  ]
+}

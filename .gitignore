@@ -1,0 +1,20 @@
+.venv/
+.tools/
+.cache/
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+data/private/
+models/cache/
+outputs/
+*.log
+
+
+# Portable project files contain user-provided source texts.
+*.hpts.zip
+*.pmc.zip

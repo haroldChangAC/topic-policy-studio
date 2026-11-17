@@ -1,0 +1,22 @@
+{
+  "model_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+  "purpose": "Environment smoke test baseline; not a validated domain model",
+  "license_from_model_card": "apache-2.0",
+  "expected_embedding_dimension": 384,
+  "documented_max_seq_length": 128,
+  "files": [
+    "README.md",
+    "config.json",
+    "config_sentence_transformers.json",
+    "modules.json",
+    "sentence_bert_config.json",
+    "1_Pooling/config.json",
+    "model.safetensors",
+    "sentencepiece.bpe.model",
+    "special_tokens_map.json",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "unigram.json"
+  ]
+}
